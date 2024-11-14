@@ -29,7 +29,7 @@ function handleSubmit(event){
  const fd = new FormData(event.target);
  const customerData = Object.fromEntries(fd.entries());
 
- fetch('http://localhost:3000/orders', {
+ fetch('https://max-food-order-backend.onrender.com/orders', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'

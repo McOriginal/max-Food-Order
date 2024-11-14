@@ -19,7 +19,7 @@ export default function MealItem( {meal}){
         <li className="meal-item">
 
             <article>
-                <img src={`http://localhost:3000/${meal.image}`} alt={meal.name} />
+                <img src={`https://max-food-order-backend.onrender.com/${meal.image}`} alt={meal.name} />
            <div>
             <h3>
                 {meal.name}

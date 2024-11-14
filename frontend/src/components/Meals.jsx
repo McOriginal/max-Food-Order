@@ -7,7 +7,7 @@ export default function Meals(){
 
     useEffect(() => {
         async function fetchMeals(){
-            const response = await fetch('http://localhost:3000/meals');
+            const response = await fetch('https://max-food-order-backend.onrender.com/meals');
 
             if(!response.ok){
 
